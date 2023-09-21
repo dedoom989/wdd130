@@ -17,7 +17,7 @@
   --navigation-background-color: #121110; /* Background color for navigation */
   --navigation-link-color: #E59953; /* Link color in navigation */
   --navigation-hover-link-color: #ffcc00; /* Link color on hover */
-  --navigation-hover-bg-color: #444; /* Background color on hover */
+  --navigation-hover-backgound-color: #444; /* Background color on hover */
 }
 
 /* Apply the defined CSS variables to the website elements */
