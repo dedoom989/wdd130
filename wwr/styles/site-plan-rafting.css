@@ -14,10 +14,10 @@
   --paragraph-font: 'Arial', sans-serif;
 
   /* Navigation */
-  --nav-background-color: #121110; /* Replace with your navigation background color */
-  --nav-link-color: #E59953; /* Replace with your navigation link color */
-  --nav-hover-link-color: #ffcc00; /* Replace with your navigation hover link color */
-  --nav-hover-background-color: #2A2B3D; /* Replace with your navigation hover background color */
+  --nav-background-color: #121110; 
+  --nav-link-color: #E59953; 
+  --nav-hover-link-color: #ffcc00;
+  --nav-hover-background-color: #2A2B3D; 
 }
 
 /* Apply the defined CSS variables to your website elements */
