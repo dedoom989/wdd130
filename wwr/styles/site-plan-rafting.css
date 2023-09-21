@@ -7,7 +7,8 @@
   --primary-color: #E59953; /* Butterscotch */
   --secondary-color: #121110; /* Night */
   --accent-color: #95443B; /* Chestnut */
- 
+  --additional-accent-color: #424F56; /* Outer Space */
+
   /* Font */
   --heading-font: 'Arial', sans-serif;
   --paragraph-font: 'Arial', sans-serif;
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   padding: 20px;
   background-color: var(--secondary-color);
-  color: var(--primary-color);
+  
 }
 
 /* Give paragraphs appropriate padding */
