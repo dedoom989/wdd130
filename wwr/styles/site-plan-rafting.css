@@ -1,19 +1,69 @@
-/* styles.css */
+/* Import the Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/* Define CSS variables in the :root pseudo-class selector */
 :root {
-    --primary-color: #E59953;
-    --secondary-color: #E6961D;
-    --accent1-color: #95443B;
-    --accent2-color: #424F56;
+  /* Colors */
+  --primary-color: #E59953; /* Butterscotch */
+  --secondary-color: #121110; /* Night */
+  --accent-color: #95443B; /* Chestnut */
+  --additional-accent-color: #424F56; /* Outer Space */
+
+  /* Font */
+  --heading-font: 'Arial', sans-serif;
+  --paragraph-font: 'Arial', sans-serif;
+
+  /* Navigation */
+  --navigation-background-color: #121110; /* Background color for navigation */
+  --navigation-link-color: #E59953; /* Link color in navigation */
+  --navigation-hover-link-color: #ffcc00; /* Link color on hover */
+  --navigation-hover-bg-color: #444; /* Background color on hover */
 }
 
-/* Example usage of the colors */
-h1 {
-    color: var(--primary-color);
+/* Apply the defined CSS variables to the website elements */
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
-a {
-    color: var(--secondary-color);
+/* Group all the built-in headings (h1 - h6) using a grouping selector */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
-/* You can use these color variables throughout your CSS */
+/* Set the header to have padding and a background-color */
+header {
+  padding: 20px;
+  background-color: var(--secondary-color);
+}
+
+/* Give paragraphs appropriate padding */
+p {
+  padding: 10px 0;
+}
+
+/* Style and presentation for the <nav> element and its anchor tag children */
+nav {
+  background-color: var(--navigation-background-color);
+  font-size: 1.2rem;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  color: var(--navigation-link-color);
+  text-decoration: none;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color:  var(--navigation-link-color);
+}
+
+nav a:hover {
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-bg-color);
+}
