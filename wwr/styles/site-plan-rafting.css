@@ -1,26 +1,26 @@
 /* Import the Google Fonts API */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arial&display=swap');
 
 /* Define CSS variables in the :root pseudo-class selector */
 :root {
   /* Colors */
   --primary-color: #E59953; /* Butterscotch */
   --secondary-color: #121110; /* Night */
-  --accent-color: #95443B; /* Chestnut */
-  --additional-accent-color: #424F56; /* Outer Space */
-
-  /* Font */
+  --accent1-color: #95443B; /* Chestnut */
+  --accent2-color: #2A2B3D; /* Outer Space */
+  
+  /* Fonts */
   --heading-font: 'Arial', sans-serif;
   --paragraph-font: 'Arial', sans-serif;
 
   /* Navigation */
-  --navigation-background-color: #121110; /* Background color for navigation */
-  --navigation-link-color: #E59953; /* Link color in navigation */
-  --navigation-hover-link-color: #ffcc00; /* Link color on hover */
-  --navigation-hover-backgound-color: #444; /* Background color on hover */
+  --nav-background-color: #121110; /* Replace with your navigation background color */
+  --nav-link-color: #E59953; /* Replace with your navigation link color */
+  --nav-hover-link-color: #ffcc00; /* Replace with your navigation hover link color */
+  --nav-hover-background-color: #2A2B3D; /* Replace with your navigation hover background color */
 }
 
-/* Apply the defined CSS variables to the website elements */
+/* Apply the defined CSS variables to your website elements */
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
@@ -28,43 +28,31 @@ body {
   padding: 20px;
 }
 
-/* Group all the built-in headings (h1 - h6) using a grouping selector */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
 
-/* Set the header to have padding and a background-color */
 header {
   padding: 20px;
   background-color: var(--secondary-color);
-  color: var(--primary-color);
 }
 
-/* Give paragraphs appropriate padding */
 p {
-  padding: 10px 0;
+  padding: 20px;
 }
 
-/* Style and presentation for the <nav> element and its anchor tag children */
 nav {
-  background-color: var(--navigation-background-color);
-  font-size: 1.2rem;
-  display: flex;
+  background-color: var(--nav-background-color);
 }
 
 nav a {
-  display: block;
-  color: var(--navigation-link-color);
+  color: var(--nav-link-color);
   text-decoration: none;
-  padding: 1rem;
-}
-
-nav a:link, nav a:visited {
-    color:  var(--navigation-link-color);
+  transition: color 0.3s;
 }
 
 nav a:hover {
-  color: var(--navigation-hover-link-color);
-  background-color: var(--navigation-hover-bg-color);
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
 }
