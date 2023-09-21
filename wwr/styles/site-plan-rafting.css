@@ -12,16 +12,15 @@
   /* Font */
   --heading-font: 'Arial', sans-serif;
   --paragraph-font: 'Arial', sans-serif;
-  --callout-font: 'Arial', sans-serif; /* New font variable for callout boxes */
 
   /* Navigation */
-  --navigation-bg-color: #121110; /* Background color for navigation */
-  --navigation-link-color: #ffffff; /* Link color in navigation */
+  --navigation-background-color: #121110; /* Background color for navigation */
+  --navigation-link-color: #E59953; /* Link color in navigation */
   --navigation-hover-link-color: #ffcc00; /* Link color on hover */
-  --navigation-hover-bg-color: #444; /* Background color on hover */
+  --navigation-hover-backgound-color: #444; /* Background color on hover */
 }
 
-/* Apply the defined CSS variables to your website elements */
+/* Apply the defined CSS variables to the website elements */
 body {
   font-family: var(--paragraph-font);
   max-width: 960px;
@@ -39,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
   padding: 20px;
   background-color: var(--secondary-color);
-  color: var(--primary-color); /* Text color within the header */
+  color: var(--primary-color);
 }
 
 /* Give paragraphs appropriate padding */
@@ -49,21 +48,23 @@ p {
 
 /* Style and presentation for the <nav> element and its anchor tag children */
 nav {
-  background-color: var(--navigation-bg-color);
+  background-color: var(--navigation-background-color);
+  font-size: 1.2rem;
+  display: flex;
 }
 
 nav a {
+  display: block;
   color: var(--navigation-link-color);
   text-decoration: none;
-  transition: color 0.3s;
+  padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color:  var(--navigation-link-color);
 }
 
 nav a:hover {
   color: var(--navigation-hover-link-color);
   background-color: var(--navigation-hover-bg-color);
-}
-
-/* Apply the callout font to the colored callout boxes */
-h4 {
-  font-family: var(--callout-font);
 }
