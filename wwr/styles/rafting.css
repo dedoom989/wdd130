@@ -1,0 +1,87 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Your+Font');
+
+/* Define CSS variables */
+:root {
+    --primary-color: #E59953;
+    --secondary-color: #121110;
+    --accent-1-color: #95443B;
+    --accent-2-color: #2A2B3D;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Your Font', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100px; /* Adjust the size of the logo */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Add more CSS styles for the hero section, sections, and footer as needed */
+
+/* Example styling for the hero section */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 36px;
+    text-align: center;
+}
+
+/* Example styling for sections */
+section {
+    margin-top: 20px;
+}
+
+/* Styling for footer */
+footer {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+/* Add more CSS styles based on your design preferences */
