@@ -21,7 +21,7 @@ body, h1, h2, h3, p {
   header img {
     max-width: 100%;
     height: auto;
-    float: c; 
+    float: center; 
     margin-right: 1rem; /* Add some space between the logo and nav links */
   }
   
