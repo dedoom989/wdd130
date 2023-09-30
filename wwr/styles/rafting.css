@@ -21,9 +21,11 @@ body, h1, h2, h3, p {
   header img {
     max-width: 100%;
     height: auto;
-    float: center; 
+    display: block; /* Set the image to display as a block-level element */
+    margin: 0 auto; /* Center-align the image horizontally */
     margin-right: 1rem; /* Add some space between the logo and nav links */
-  }
+}
+
   
   nav {
     margin-top: 1rem;
