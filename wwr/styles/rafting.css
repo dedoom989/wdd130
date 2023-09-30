@@ -1,87 +1,85 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Your+Font');
-
-/* Define CSS variables */
-:root {
-    --primary-color: #E59953;
-    --secondary-color: #121110;
-    --accent-1-color: #95443B;
-    --accent-2-color: #2A2B3D;
-}
-
-/* Basic styling */
-body {
-    font-family: 'Your Font', sans-serif;
+/* Reset some default styles for consistency */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-    background-color: var(--secondary-color);
-    color: white;
-}
-
-header {
-    background-color: var(--primary-color);
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header img {
-    width: 100px; /* Adjust the size of the logo */
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    margin: 0 10px;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Add more CSS styles for the hero section, sections, and footer as needed */
-
-/* Example styling for the hero section */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
+  }
+  
+  /* Define Arial as the font family for your content */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #121110;
+    color: #E59953;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 100%;
     height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 36px;
+  }
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #E59953;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    position: relative;
     text-align: center;
-}
-
-/* Example styling for sections */
-section {
-    margin-top: 20px;
-}
-
-/* Styling for footer */
-footer {
-    background-color: var(--primary-color);
-    padding: 10px 0;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  /* Style article section */
+  article {
+    padding: 1rem;
+  }
+  
+  article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #121110;
+    color: #E59953;
     text-align: center;
-}
-
-footer p {
-    font-size: 14px;
-    margin-bottom: 10px;
-}
-
-footer a {
-    margin: 0 10px;
-}
-
-/* Add more CSS styles based on your design preferences */
+    padding: 1rem 0;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  
+  /* Style social media icons in the footer */
+  footer a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #E59953;
+  }
+  
+  footer a:hover {
+    color: #95443B;
+  }
+  
