@@ -1,7 +1,7 @@
 /* Reset some default styles for consistency */
 body, h1, h2, h3, p {
-    margin: 0;
-    padding: 0;
+    margin: 2rem;
+    padding: 1rem;
   }
   
   /* Set the background color of the entire page to black */
