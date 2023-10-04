@@ -5,19 +5,20 @@
 /* Define CSS variables in the :root pseudo-class selector */
 :root {
   /* Colors */
-  --primary-color: #E59953; /* Butterscotch */
-  --secondary-color: #121110; /* Night */
-  --accent1-color: #95443B; /* Chestnut */
+  --primary-color: #F5F5DC; /* Beige */
+  --secondary-color: #E59953; /* Butterscotch */
+  --accent1-color: #F5F5DC; /* Beige */
   --accent2-color: #2A2B3D; /* Outer Space */
   
   /* Fonts */
   --heading-font: 'Arial', sans-serif;
   --paragraph-font: 'Arial', sans-serif;
+ color: #F5F5DC;
 
   /* Navigation */
-  --nav-background-color: #121110; 
-  --nav-link-color: #E59953; 
-  --nav-hover-link-color: #95443B;
+  --nav-background-color: #E59953; 
+  --nav-link-color: #F5F5DC; 
+  --nav-hover-link-color: #F5F5DC;
   --nav-hover-background-color: #2A2B3D; 
 }
 
@@ -27,6 +28,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 20px;
+  background-color: #121110; /* Black background color */
 }
 
 h1, h2, h3, h4, h5, h6 {
