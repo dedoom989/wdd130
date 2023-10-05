@@ -19,7 +19,7 @@ body, h1, h2, h3, p {
   }
   
   header img {
-    max-width: 100%;
+    max-width: 10%;
     height: auto;
     display: block; /* Set the image to display as a block-level element */
     margin: 0 auto; /* Center-align the image horizontally */
