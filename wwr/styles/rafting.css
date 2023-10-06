@@ -1,99 +1,154 @@
 /* Reset some default styles for consistency */
 body, h1, h2, h3, p {
-    margin: 2rem;
-    padding: 1rem;
-  }
-  
-  /* Set the background color of the entire page to black */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #121110; /* Black background color */
-    color: #F5F5DC;
-  }
-  
-  /* Style the header */
-  header {
-    background-color: #E59953;
-    padding: 1rem 0;
-    text-align: center;
-  }
-  
-  header img {
-    max-width: 10%;
-    height: auto;
-    display: block; /* Set the image to display as a block-level element */
-    margin: 0 auto; /* Center-align the image horizontally */
-    margin-right: 1rem; /* Add some space between the logo and nav links */
+  margin: 2rem;
+  padding: 1rem;
 }
 
-  
-  nav {
-    margin-top: 1rem;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #F5F5DC;
-    margin: 0 1rem;
-    font-weight: bold;
-  }
-  
-  /* Style the hero section */
-  .hero {
-    position: relative;
-    text-align: center;
-  }
-  
-  .hero img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .hero h1 {
-    font-size: 2rem;
-    margin-top: 1rem;
-  }
-  
-  /* Style article section */
-  article {
-    padding: 1rem;
-  }
-  
-  article h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  /* Style the footer */
-  footer {
-    background-color: #121110;
-    text-align: center;
-    padding: 1rem 0;
-  }
-  
-  /* Make the footer padding black */
-  footer p {
-    margin: 0;
-    font-size: 0.8rem;
-    background-color: #121110;
-    padding: 5px; /* Adjust the padding as needed */
-    color: #F5F5DC !important; /* Use !important to override any conflicting styles */
-  }
-  
-  /* Style social media icons in the footer */
-  footer a {
-    margin: 0 0.3rem; /* Reduce the margin for the icons */
-    text-decoration: none;
-    color: #F5F5DC;
-  }
-  
-  /* Make the social media icons smaller */
-  footer a img {
-    width: 30px; /* Adjust the width to your desired size */
-    height: auto;
-  }
-  
-  footer a:hover {
-    color: #95443B;
-  }
-  
+/* Set the background color of the entire page to black */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121110; /* Black background color */
+  color: #F5F5DC;
+}
+
+/* Style the header */
+header {
+  background-color: #E59953;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header img {
+  max-width: 10%;
+  height: auto;
+  display: block; /* Set the image to display as a block-level element */
+  margin: 0 auto; /* Center-align the image horizontally */
+  margin-right: 1rem; /* Add some space between the logo and nav links */
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #F5F5DC;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+/* Style the hero section */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+/* Style article section */
+article {
+  padding: 1rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the footer */
+footer {
+  background-color: #121110;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Make the footer padding black */
+footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  background-color: #121110;
+  padding: 5px; /* Adjust the padding as needed */
+  color: #F5F5DC !important; /* Use !important to override any conflicting styles */
+}
+
+/* Style social media icons in the footer */
+footer a {
+  margin: 0 0.3rem; /* Reduce the margin for the icons */
+  text-decoration: none;
+  color: #F5F5DC;
+}
+
+/* Make the social media icons smaller */
+footer a img {
+  width: 30px; /* Adjust the width to your desired size */
+  height: auto;
+}
+
+footer a:hover {
+  color: #95443B;
+}
+
+/* Style the History section */
+article {
+  padding: 1rem;
+}
+
+article h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Style the Adventures section */
+section {
+  display: flex; /* Use Flexbox to arrange images horizontally */
+  flex-wrap: wrap; /* Wrap images to the next line when there's not enough space */
+  justify-content: space-between; /* Space evenly between images */
+  margin: 2rem; /* Add margin around the section */
+}
+
+section img {
+  max-width: calc(20% - 2rem); /* Calculate image width with margin */
+  height: auto;
+  margin: 1rem; /* Add margin around each image */
+}
+
+/* Style the footer */
+footer {
+  background-color: #121110;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* Make the footer padding black */
+footer p {
+  margin: 0;
+  font-size: 0.8rem;
+  background-color: #121110;
+  padding: 5px; /* Adjust the padding as needed */
+  color: #F5F5DC !important; /* Use !important to override any conflicting styles */
+}
+
+/* Style social media icons in the footer */
+footer a {
+  margin: 0 0.3rem; /* Reduce the margin for the icons */
+  text-decoration: none;
+  color: #F5F5DC;
+}
+
+/* Make the social media icons smaller */
+footer a img {
+  width: 30px; /* Adjust the width to your desired size */
+  height: auto;
+}
+
+footer a:hover {
+  color: #95443B;
+}
