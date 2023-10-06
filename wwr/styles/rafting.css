@@ -71,8 +71,6 @@ article h2 {
 
 /* Style the footer */
 footer {
-  display: flex; /* Use Flexbox for horizontal layout */
-  justify-content: flex-end; /* Align items to the right */
   background-color: #121110;
   text-align: center;
   padding: 1rem 0;
@@ -102,4 +100,46 @@ footer a img {
 
 footer a:hover {
   color: #95443B;
+}
+
+/* Style the History section */
+.history {
+  padding: 2rem; /* Adjust as needed */
+  text-align: center;
+}
+
+.history article {
+  background-color: #121110; /* Background color for history content */
+  color: #F5F5DC;
+  padding: 1rem; /* Adjust as needed */
+  border-radius: 10px; /* Rounded corners for history content */
+}
+
+/* Style the Adventures section */
+.adventures {
+  padding: 2rem; /* Adjust as needed */
+  text-align: center;
+}
+
+.adventure-images {
+  display: flex; /* Use Flexbox for horizontal layout */
+  justify-content: space-between; /* Distribute images evenly */
+  margin-top: 1rem; /* Add space between section title and images */
+}
+
+.adventure-images figure {
+  flex: 1; /* Distribute available space evenly among images */
+  text-align: center;
+  margin: 0 0.5rem; /* Adjust as needed for spacing between images */
+}
+
+.adventure-images img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+.adventure-images figcaption {
+  margin-top: 0.5rem; /* Add space between image and caption */
+  font-weight: bold;
 }
