@@ -11,13 +11,17 @@ body {
   color: #F5F5DC;
 }
 
-/* Style the header */
+/* Style the header using CSS Grid */
 header {
+  display: grid;
+  grid-template-columns: 1fr auto; /* Two equal-width columns */
+  align-items: center; /* Center vertically */
   background-color: #E59953;
   padding: 1rem 0;
   text-align: center;
 }
 
+/* Style the logo image in the header */
 header img {
   max-width: 10%;
   height: auto;
@@ -26,7 +30,9 @@ header img {
   margin-right: 1rem; /* Add some space between the logo and nav links */
 }
 
+/* Style the navigation bar using CSS Flex */
 nav {
+  display: flex;
   margin-top: 1rem;
 }
 
@@ -65,63 +71,8 @@ article h2 {
 
 /* Style the footer */
 footer {
-  background-color: #121110;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-/* Make the footer padding black */
-footer p {
-  margin: 0;
-  font-size: 0.8rem;
-  background-color: #121110;
-  padding: 5px; /* Adjust the padding as needed */
-  color: #F5F5DC !important; /* Use !important to override any conflicting styles */
-}
-
-/* Style social media icons in the footer */
-footer a {
-  margin: 0 0.3rem; /* Reduce the margin for the icons */
-  text-decoration: none;
-  color: #F5F5DC;
-}
-
-/* Make the social media icons smaller */
-footer a img {
-  width: 30px; /* Adjust the width to your desired size */
-  height: auto;
-}
-
-footer a:hover {
-  color: #95443B;
-}
-
-/* Style the History section */
-article {
-  padding: 1rem;
-}
-
-article h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Style the Adventures section */
-section {
-  display: flex; /* Use Flexbox to arrange images horizontally */
-  flex-wrap: wrap; /* Wrap images to the next line when there's not enough space */
-  justify-content: space-between; /* Space evenly between images */
-  margin: 2rem; /* Add margin around the section */
-}
-
-section img {
-  max-width: calc(20% - 2rem); /* Calculate image width with margin */
-  height: auto;
-  margin: 1rem; /* Add margin around each image */
-}
-
-/* Style the footer */
-footer {
+  display: flex; /* Use Flexbox for horizontal layout */
+  justify-content: flex-end; /* Align items to the right */
   background-color: #121110;
   text-align: center;
   padding: 1rem 0;
