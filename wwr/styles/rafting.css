@@ -1,145 +1,99 @@
 /* Reset some default styles for consistency */
 body, h1, h2, h3, p {
-  margin: 2rem;
-  padding: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  
+  /* Set the background color of the entire page to black */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121110; /* Black background color */
+    color: #F5F5DC;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #E59953;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header img {
+    max-width: 10%;
+    height: auto;
+    display: block; /* Set the image to display as a block-level element */
+    margin: 0 auto; /* Center-align the image horizontally */
+    margin-right: 1rem; /* Add some space between the logo and nav links */
 }
 
-/* Set the background color of the entire page to black */
-body {
-  font-family: Arial, sans-serif;
-  background-color: #121110; /* Black background color */
-  color: #F5F5DC;
-}
-
-/* Style the header using CSS Grid */
-header {
-  display: grid;
-  grid-template-columns: 1fr auto; /* Two equal-width columns */
-  align-items: center; /* Center vertically */
-  background-color: #E59953;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-/* Style the logo image in the header */
-header img {
-  max-width: 10%;
-  height: auto;
-  display: block; /* Set the image to display as a block-level element */
-  margin: 0 auto; /* Center-align the image horizontally */
-  margin-right: 1rem; /* Add some space between the logo and nav links */
-}
-
-/* Style the navigation bar using CSS Flex */
-nav {
-  display: flex;
-  margin-top: 1rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: #F5F5DC;
-  margin: 0 1rem;
-  font-weight: bold;
-}
-
-/* Style the hero section */
-.hero {
-  position: relative;
-  text-align: center;
-}
-
-.hero img {
-  max-width: 100%;
-  height: auto;
-}
-
-.hero h1 {
-  font-size: 2rem;
-  margin-top: 1rem;
-}
-
-/* Style article section */
-article {
-  padding: 1rem;
-}
-
-article h2 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Style the footer */
-footer {
-  background-color: #121110;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-/* Make the footer padding black */
-footer p {
-  margin: 0;
-  font-size: 0.8rem;
-  background-color: #121110;
-  padding: 5px; /* Adjust the padding as needed */
-  color: #F5F5DC !important; /* Use !important to override any conflicting styles */
-}
-
-/* Style social media icons in the footer */
-footer a {
-  margin: 0 0.3rem; /* Reduce the margin for the icons */
-  text-decoration: none;
-  color: #F5F5DC;
-}
-
-/* Make the social media icons smaller */
-footer a img {
-  width: 30px; /* Adjust the width to your desired size */
-  height: auto;
-}
-
-footer a:hover {
-  color: #95443B;
-}
-
-/* Style the History section */
-.history {
-  padding: 2rem; /* Adjust as needed */
-  text-align: center;
-}
-
-.history article {
-  background-color: #121110; /* Background color for history content */
-  color: #F5F5DC;
-  padding: 1rem; /* Adjust as needed */
-  border-radius: 10px; /* Rounded corners for history content */
-}
-
-/* Style the Adventures section */
-.adventures {
-  padding: 2rem; /* Adjust as needed */
-  text-align: center;
-}
-
-.adventure-images {
-  display: flex; /* Use Flexbox for horizontal layout */
-  justify-content: space-between; /* Distribute images evenly */
-  margin-top: 1rem; /* Add space between section title and images */
-}
-
-.adventure-images figure {
-  flex: 1; /* Distribute available space evenly among images */
-  text-align: center;
-  margin: 0 0.5rem; /* Adjust as needed for spacing between images */
-}
-
-.adventure-images img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px; /* Rounded corners for images */
-}
-
-.adventure-images figcaption {
-  margin-top: 0.5rem; /* Add space between image and caption */
-  font-weight: bold;
-}
+  
+  nav {
+    margin-top: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #F5F5DC;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    position: relative;
+    text-align: center;
+  }
+  
+  .hero img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  /* Style article section */
+  article {
+    padding: 1rem;
+  }
+  
+  article h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #121110;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Make the footer padding black */
+  footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    background-color: #121110;
+    padding: 5px; /* Adjust the padding as needed */
+    color: #F5F5DC !important; /* Use !important to override any conflicting styles */
+  }
+  
+  /* Style social media icons in the footer */
+  footer a {
+    margin: 0 0.3rem; /* Reduce the margin for the icons */
+    text-decoration: none;
+    color: #F5F5DC;
+  }
+  
+  /* Make the social media icons smaller */
+  footer a img {
+    width: 30px; /* Adjust the width to your desired size */
+    height: auto;
+  }
+  
+  footer a:hover {
+    color: #95443B;
+  }
+  
