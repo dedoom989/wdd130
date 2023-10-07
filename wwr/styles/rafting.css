@@ -98,15 +98,14 @@ article img {
   margin-left: 20px;
 }
 
-/* Style the footer (you can add more styles as needed) */
-/* Footer */
+/* Style the footer */
 footer {
   background-color: var(--nav-background-color);
   text-align: center;
   padding: 1rem 0;
   display: flex;
-  justify-content: flex-end; /* Isso alinhará os elementos à direita */
-  align-items: center; /* Isso alinhará os elementos verticalmente ao centro */
+  justify-content: flex-end; 
+  align-items: center; 
 }
 
 footer p {
