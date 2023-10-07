@@ -1,5 +1,6 @@
 /* Import the Google Fonts API */
-/* @import url('https://fonts.googleapis.com/css2?family=Arial&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 
 /* Define CSS variables in the :root pseudo-class selector */
@@ -11,8 +12,8 @@
   --accent2-color: #2A2B3D; /* Outer Space */
   
   /* Fonts */
-  --heading-font: 'Arial', sans-serif;
-  --paragraph-font: 'Arial', sans-serif;
+  --heading-font: 'Ubuntu', sans-serif;
+  --paragraph-font: 'Lato', sans-serif;
  color: #F5F5DC;
 
   /* Navigation */
