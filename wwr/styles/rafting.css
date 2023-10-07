@@ -39,16 +39,29 @@ body {
 header {
   background-color: var(--nav-background-color);
   color: white;
-  text-align: center;
-  padding: 1rem;
+  padding: 10px 20px;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
 }
 
 header img {
   max-width: 10%;
   height: auto;
-  display: block;
-  margin: 0 auto;
-  margin-right: 1rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  transition: color 0.3s ease;
 }
 
 /* Style the hero section */
@@ -86,10 +99,14 @@ article img {
 }
 
 /* Style the footer (you can add more styles as needed) */
+/* Footer */
 footer {
   background-color: var(--nav-background-color);
   text-align: center;
   padding: 1rem 0;
+  display: flex;
+  justify-content: flex-end; /* Isso alinhará os elementos à direita */
+  align-items: center; /* Isso alinhará os elementos verticalmente ao centro */
 }
 
 footer p {
@@ -97,14 +114,13 @@ footer p {
   font-size: 0.8rem;
   background-color: var(--nav-background-color);
   padding: 5px;
-  color: #F5F5DC !important;
+  color: white !important;
 }
 
-/* Style social media icons in the footer */
 footer a {
   margin: 0 0.3rem;
   text-decoration: none;
-  color: #F5F5DC;
+  color: white;
 }
 
 footer a img {
