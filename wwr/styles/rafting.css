@@ -51,10 +51,12 @@ header {
 header img {
   max-width: 10%;
   height: auto;
+  display: block;
 }
 
 nav {
   display: flex;
+  
 }
 
 nav a {
