@@ -21,13 +21,6 @@
   --nav-hover-background-color: #2A2B3D;
 }
 
-/* Reset some default styles for consistency */
-body, h1, h2, h3, p {
-  margin: 2rem;
-  padding: 1rem;
-}
-
-/* Set the background color of the entire page to black */
 body {
   background-color: #121110; /* Black background color */
   color: #F5F5DC;
@@ -82,11 +75,10 @@ nav a {
   font-size: 2rem;
   margin-top: 1rem;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); /* Center-align the title */
+  top: 2px;
+  left: 3px;
   color: white;
-  background-color: rgba(0, 0, 0, 0.067); /* Add a semi-transparent background */
+  background-color: rgba(0, 0, 0, 0.398); /* Add a semi-transparent background */
   padding: 10px;
 }
 
