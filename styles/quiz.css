@@ -1,12 +1,13 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Apply general styling to the document */
+/* Set primary font and basic styling */
 :root {
   --primary-font: 'Roboto', sans-serif;
+  --primary-color: #007BFF;
 }
 
-/* Apply general styling to the form and its elements */
+/* Apply general styling to the document */
 body {
   font-family: var(--primary-font);
   text-align: center;
@@ -17,6 +18,7 @@ h1 {
   font-size: 24px;
 }
 
+/* Style the form and its elements */
 form {
   max-width: 400px;
   margin: 0 auto;
@@ -31,7 +33,7 @@ label {
   margin-bottom: 5px;
 }
 
-/* Style the text input */
+/* Style form elements */
 input[type="text"],
 textarea,
 select,
@@ -40,11 +42,12 @@ input[type="number"] {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: var(--primary-font); /* Apply the primary font */
 }
 
 /* Style the submit button */
 button[type="submit"] {
-  background-color: #007BFF;
+  background-color: var(--primary-color); /* Use the primary color */
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -54,5 +57,5 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #0056b3; /* Darker shade on hover */
 }
