@@ -1,51 +1,58 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply general styling to the document */
+:root {
+  --primary-font: 'Roboto', sans-serif;
+}
+
 /* Apply general styling to the form and its elements */
 body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 20px;
-  }
-  
-  h1 {
-    font-size: 24px;
-  }
-  
-  form {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .question {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  /* Style the text input */
-  input[type="text"],
-  textarea,
-  select,
-  input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #0000008e;
-    border-radius: 5px;
-  }
-  
-  /* Style the submit button */
-  button[type="submit"] {
-    background-color: #007BFF;
-    color: hsl(0, 0%, 100%);
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
+  font-family: var(--primary-font);
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the text input */
+input[type="text"],
+textarea,
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
