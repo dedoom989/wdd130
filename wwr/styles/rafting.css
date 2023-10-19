@@ -118,7 +118,14 @@ footer a {
 footer a img {
   width: 30px;
   height: auto;
+  
 }
+
+.imagem-principal {
+  width: 60px; /* Defina o tamanho desejado para a primeira imagem do footer */ 
+  height: auto; /* Mantém a proporção original */
+}
+
 
 footer a:hover {
   color: #95443B;
@@ -170,12 +177,18 @@ h1.contact-title {
   top: -1rem;
   left: 4rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0.534);
+  background-color: rgba(0, 0, 0, 0);
   padding: 10px;
 }
 
 .contact-form button:hover {
   background-color: var(--accent2-color);
 }
+
+.imagem-contato {
+  width: 3rem; /* Defina a largura desejada em pixels */
+  height: auto; /* Mantém a proporção original da imagem */
+}
+
 
 /* Add your additional styles for the Contact Us page below */
