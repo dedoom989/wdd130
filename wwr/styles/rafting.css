@@ -170,7 +170,7 @@ h1.contact-title {
   top: -1rem;
   left: 4rem;
   color: white;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.534);
   padding: 10px;
 }
 
