@@ -178,4 +178,65 @@ h1.contact-title {
   background-color: var(--accent2-color);
 }
 
-/* Add your additional styles for the Contact Us page below */
+/* Styles for Trips Page */
+
+/* Customize these styles to match the Trips page design */
+
+.trips-hero {
+  text-align: center;
+  background: url('images/trips-hero.jpg') center/cover;
+  color: white;
+  padding: 2rem;
+}
+
+.trips-hero h1 {
+  font-size: 2rem;
+}
+
+.trip-description {
+  padding: 2rem;
+  border: 1px solid var(--accent2-color);
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+.trip-description img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.trip-description h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.trip-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+.trip-table th, .trip-table td {
+  padding: 1rem;
+  border: 1px solid var(--accent2-color);
+}
+
+h1.trips-title {
+  font-size: 2rem;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.673);
+  padding: 10px;
+}
+
+.trip-table th {
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  font-weight: bold;
+}
+
+
+
