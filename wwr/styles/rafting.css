@@ -127,7 +127,6 @@ footer a:hover {
 /* Additional styles for the Contact Us page */
 /* Customize these styles to match the Contact Us page design */
 
-/* For instance, you can add the contact form styles here. */
 .contact-form {
   padding: 2rem;
   background-color: var(--primary-color);
@@ -179,8 +178,6 @@ h1.contact-title {
 }
 
 /* Styles for Trips Page */
-
-/* Customize these styles to match the Trips page design */
 
 .trips-hero {
   text-align: center;
@@ -237,6 +234,76 @@ h1.trips-title {
   color: var(--accent2-color);
   font-weight: bold;
 }
+
+/* Styles for the Home page */
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+  max-height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.newsletter {
+  text-align: center;
+  padding: 2rem;
+}
+
+.newsletter h2 {
+  font-size: 1.5rem;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid var(--accent2-color);
+  border-radius: 5px;
+}
+
+.call-to-action {
+  text-align: center;
+  background: var(--accent1-color);
+  padding: 2rem;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 2rem;
+}
+
+.grid-item {
+  border: 1px solid var(--accent2-color);
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.grid-item img {
+  width: 100%;
+  max-height: auto;
+}
+
 
 
 
